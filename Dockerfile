@@ -1,4 +1,4 @@
-from alpine:3.12
+from alpine:3.14.3
 
 COPY ./health-checker_linux_amd64 /health-checker
 # make sure it's executable
